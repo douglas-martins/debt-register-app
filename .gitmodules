@@ -1,6 +1,6 @@
 [submodule "debt-register-web-client"]
 	path = debt-register-web-client
-	url = git@github.com:douglas-martins/debt-register-web-client.git
+	url = https://github.com/douglas-martins/debt-register-web-client.git
 [submodule "debt-register-api"]
 	path = debt-register-api
-	url = git@github.com:douglas-martins/debt-register-api.git
+	url = https://github.com/douglas-martins/debt-register-api.git
