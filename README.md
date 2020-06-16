@@ -51,7 +51,7 @@ $ git pull
 $ yarn install
 
 # Copy the base file for the environment one (from the / for this project)
-$ cp .env_base .env
+$ cp .env_template .env
 
 # Value for .env
 APP_VERSION=1.0.0
