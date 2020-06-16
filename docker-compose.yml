@@ -1,0 +1,24 @@
+version: '3.0' # specify docker-compose version
+ 
+# Define the services/ containers to be run
+services:
+ angular: # name of the first service
+  build: debt-register-web-client # specify the directory of the Dockerfile
+  ports:
+   - "4200:4200" # specify port mapping
+ database: # name of the third service
+  image: mongo # specify image to build container from
+  container_name: database
+  ports:
+   - "27017:27017" # specify port forwarding
+ express: # name of the second service
+  build: debt-register-api # specify the directory of the Dockerfile
+  restart: always
+  ports:
+  - "3000:3000" #specify ports mapping
+  depends_on:
+  - database
+  links:
+  - database # link this service to the database service
+
+
