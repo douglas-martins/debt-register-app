@@ -26,14 +26,6 @@ Full web application building on a Docker Container:
 
       $ npm install -g yarn
 
----
-
-## Install
-
-    $ git clone https://github.com/douglas-martins/debt-register-web-client
-    $ cd debt-register-web-client
-    $ yarn install
-
 --- 
 ## Config Docker container to run the application 
 
