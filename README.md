@@ -20,8 +20,22 @@ Full web application building on a Docker Container:
 #### Docker Compose installation on:
 - [All Platforms](https://docs.docker.com/compose/install/)
 
+###
+### Yarn installation
+  After installing node, this project will need yarn too, so just run the following command.
+
+      $ npm install -g yarn
+
+---
+
+## Install
+
+    $ git clone https://github.com/douglas-martins/debt-register-web-client
+    $ cd debt-register-web-client
+    $ yarn install
+
 --- 
-## Config Docker container to run application 
+## Config Docker container to run the application 
 
 
 
@@ -73,3 +87,42 @@ $ docker-compose up
 # or (for running in background)
 $ docker-compose up -d
 ```
+
+### Bonus ([Lazydocker](https://github.com/jesseduffield/lazydocker))
+A simple terminal UI for both docker and docker-compose, written in Go with the [gocui](https://github.com/jroimartin/gocui 'gocui') library.
+## Installation
+
+### Homebrew
+
+Normally `lazydocker` formula can be found in the Homebrew core but we suggest you to tap our formula to get frequently updated one. It works with Linux, too.
+
+**Tap**:
+```sh
+brew install jesseduffield/lazydocker/lazydocker
+```
+
+**Core**:
+```sh
+brew install lazydocker
+```
+
+### Scoop (Windows)
+
+You can install `lazydocker` using [scoop](https://scoop.sh/):
+
+```sh
+scoop install lazydocker
+```
+
+### Binary Release (Linux/OSX/Windows)
+
+You can manually download a binary release from [the release page](https://github.com/jesseduffield/lazydocker/releases).
+
+Automated install/update, don't forget to always verify what you're piping into bash:
+
+```sh
+curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
+```
+
+The script installs downloaded binary to `/usr/local/bin` directory by default, but it can be changed by setting `DIR` environment variable.
+
