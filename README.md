@@ -90,9 +90,9 @@ $ docker-compose up -d
 
 ### Bonus ([Lazydocker](https://github.com/jesseduffield/lazydocker))
 A simple terminal UI for both docker and docker-compose, written in Go with the [gocui](https://github.com/jroimartin/gocui 'gocui') library.
-## Installation
+### Installation
 
-### Homebrew
+##### Homebrew
 
 Normally `lazydocker` formula can be found in the Homebrew core but we suggest you to tap our formula to get frequently updated one. It works with Linux, too.
 
@@ -106,7 +106,7 @@ brew install jesseduffield/lazydocker/lazydocker
 brew install lazydocker
 ```
 
-### Scoop (Windows)
+##### Scoop (Windows)
 
 You can install `lazydocker` using [scoop](https://scoop.sh/):
 
@@ -114,7 +114,7 @@ You can install `lazydocker` using [scoop](https://scoop.sh/):
 scoop install lazydocker
 ```
 
-### Binary Release (Linux/OSX/Windows)
+##### Binary Release (Linux/OSX/Windows)
 
 You can manually download a binary release from [the release page](https://github.com/jesseduffield/lazydocker/releases).
 
