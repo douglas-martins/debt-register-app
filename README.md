@@ -1,5 +1,9 @@
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR-LnkQEQ3fRh4n8Y1fWh9wLbdUZnnkoQ13tkwHKwwed8lKgwZ_&usqp=CAU"  alt=""/>
-<img src="https://d1q6f0aelx0por.cloudfront.net/product-logos/644d2f15-c5db-4731-a353-ace6235841fa-registry.png"  alt=""/>
+<p float="left">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR-LnkQEQ3fRh4n8Y1fWh9wLbdUZnnkoQ13tkwHKwwed8lKgwZ_&usqp=CAU"  alt=""/ width="150">
+  <img src="https://d1q6f0aelx0por.cloudfront.net/product-logos/644d2f15-c5db-4731-a353-ace6235841fa-registry.png"  alt="" width="150"/>
+</p>
+
+
 
 # Debt Register App
 
