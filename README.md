@@ -122,3 +122,6 @@ curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/i
 
 The script installs downloaded binary to `/usr/local/bin` directory by default, but it can be changed by setting `DIR` environment variable.
 
+--- 
+## Application flow 
+![alt text](https://github.com/douglas-martins/debt-register-app/blob/master/fluxograma.jpeg?raw=true)
