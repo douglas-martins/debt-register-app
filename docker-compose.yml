@@ -13,7 +13,7 @@ services:
    - "27017:27017" # specify port forwarding
  express: # name of the second service
   build: debt-register-api # specify the directory of the Dockerfile
-  restart: always
+  restart: on-failure
   ports:
   - "3000:3000" #specify ports mapping
   depends_on:
